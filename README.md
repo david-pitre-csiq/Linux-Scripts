@@ -23,7 +23,8 @@ This can be heavy on performance and I/O. In production, you may want to restric
 Clone this repo and run the installer:
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+cd /opt
+git clone https://github.com/david-pitre-csiq/Linux-Scripts
+cd Linux-Scripts
 chmod +x install_clamav_onaccess.sh
 ./install_clamav_onaccess.sh
