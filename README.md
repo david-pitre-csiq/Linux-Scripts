@@ -1,6 +1,7 @@
 # ClamAV On-Access Scanner Installer
 
 This repository contains an **all-in-one installer script** for setting up [ClamAV](https://www.clamav.net/) with **real-time (on-access) scanning** on Ubuntu Linux.
+Testing working on Ubuntu 22.04, 24.04, and 25.04. Ensure you have at least 4GB of ram and ideally run an "apt update && apt full-upgrade -y" followed by a reboot before installing.
 
 ⚠️ **Warning:**  
 By default, the script enables on-access scanning for **the entire filesystem (`/`)**.  
