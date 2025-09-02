@@ -43,7 +43,7 @@ Requires=clamav-daemon.service
 After=clamav-daemon.service
 
 [Service]
-ExecStart=/usr/bin/clamdscan --fdpass --on-access=yes --recursive /
+ExecStart=/usr/bin/clamdscan --fdpass --on-access=yes --recursive /home
 Restart=on-failure
 User=root
 
